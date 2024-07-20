@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page - Cool Professional Website</title>
+    <script src="Blog.js"></script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .content h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .content p {
+            line-height: 1.6;
+        }
+        .blog-post {
+            margin-bottom: 20px;
+        }
+        .blog-post h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .blog-post p {
+            margin: 5px 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px ;
+            position: sticky;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+    <nav>
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="art.html">Art</a>
+        <a href="music.html">Music</a>
+        <a href="index.html#contact">Contact</a>
+    </nav>
+    <div><button>Logout</button></div>
+    <div class="container">
+        <div class="content">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>What Is This For </h3>
+                <p>This is a blog Page Where I will be posting Daily updates regarding my webiste . Though I will not be
+                That regular in posting I will inform when I will we adding more content
+                </p>
+            </div>
+            <div class="blog-post">
+                <h3>Guitar Annoucment</h3>
+                <p>Whats good everybody A Guitar cover on The song Riptide By Vance Joy will be coming very soon on the guitar page make sure to see</p>
+            </div>
+            <div class="blog-post">
+                <h3>Sketch Announcement</h3>
+                <p>Back with some more good news guys I will be  creating a new Sketch For my favorite anime character Please see.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 My Cool Professional Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
